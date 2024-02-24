@@ -45,22 +45,22 @@ nav{
 .main-inner-text{
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    text-align: center;
+    gap: 30px;
+    text-align:end;
     color: white;
 }
 .main-inner-text-h2{
     font-family: "poppins",sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     color: white;
 }
 .main-inner.text p{
     color:white ;
-    width: 85%;
+    width: 70%;
     margin: auto;
 }
 .main-inner-text button{
-    width: 70%;
+    width: 50%;
     height: 2rem;
     background-color: white;
     margin: auto;
@@ -85,3 +85,62 @@ nav{
     padding-bottom: 10%;
  }
 
+/* destop view */
+@media ( min-width:1024px){
+} 
+    body{
+        background: url('assets/bg-desktop.svg') no-repeat;
+        background-color: hsl(257, 40%, 49%);
+    background-position-x: 2%;
+    background-size: contain;
+    background-position-x:2%;
+    }
+nav img{
+    width: 30%;
+
+
+}
+.main{
+    flex-direction: row;
+    justify-content: center;
+}
+.main-inner-text{
+    text-align: left;
+    width: 50%;
+    margin-right: auto;
+    margin-left: 8rem;
+    height: 50%;
+    margin-top: 5%;
+    margin-bottom: auto;
+}
+
+.main-footer{
+    justify-content: center;
+        display: flex;  
+}
+ .main-inner-text button{
+    margin: 0;
+    width: 20%;
+    height: 2.5rem;
+}
+    
+ .main-inner-text p{
+    margin: 0;
+    width: 25rem;
+ }
+ .icon-view{
+    display: flex;
+    justify-content: end;
+   
+ .main-footer{
+    display: flex;
+    justify-content: end;
+
+ }
+
+ .icon{
+  
+    display: flex;
+    justify-content: end;
+ }
+}
