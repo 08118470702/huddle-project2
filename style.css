@@ -34,7 +34,7 @@ nav{
     padding-top: 2rem;
     
 }
-main{
+.main{
     margin-top: 30px;
     display: flex;
     max-width: 100%;
@@ -56,6 +56,7 @@ main{
     flex-direction: column;
     gap: 20px;
     text-align: center;
+    color: white;
 
 }
 .main-inner-text-h2{
@@ -77,14 +78,30 @@ main{
     background-color: white;
     margin: auto;
     border: none;
-    border-radius: 2rem;
+    border-radius: 4rem;
     color:hsl(300, 69%, 71%);
     box-shadow: 1px;
     font-size: smaller;
     box-shadow: 1px 2px 5px hsl(300, 69%, 71%);
     
+
 }
- 
+ /* -------- */
+ .main-inner-text button:hover{
+    box-shadow: 0 20px 30px rgba(0,0,0,2);
+    color: white;
+    background-color:hsl(300, 69%, 71%);
+    transform: translateY(-3px);
+
+ }
+
+ .main-inner-text button:active{
+    box-shadow: 0 20px 30px rgba(0,0,0,2);
+    transform: translateY(-1px);
+
+ }
+
+
  .icon-view{
     display: flex;
     justify-content: space-between;
@@ -137,17 +154,24 @@ nav img{
 
  .main-footer{
     justify-content: center;
-        display: flex;   }
+        display: flex;  
+     }
 
  .main-inner-text button{
     margin: 0;
-    width: 50%;
+    width: 30%;
     height: 2.5rem;
+}
+.main-inner-text-h2{
+    font-family: "poppins",sans-serif;
+    font-weight: 600;
+    color: white;
 }
     
  .main-inner-text p{
     margin: 0;
     width: 25rem;
+    color: white;
  }
  .icon-view{
   padding-top: 4%;
