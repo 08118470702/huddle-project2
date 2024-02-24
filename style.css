@@ -86,7 +86,7 @@ nav{
  }
 
 /* destop view */
-@media ( min-width:1024px){
+/* @media ( min-width:1024px){
 } 
     body{
         background: url('assets/bg-desktop.svg') no-repeat;
@@ -143,4 +143,4 @@ nav img{
     display: flex;
     justify-content: end;
  }
-}
+} */
