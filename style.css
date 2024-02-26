@@ -12,7 +12,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-color: hsl(257, 40%, 49%);*/
-    background: url('assets/bg-mobile.svg') no-repeat hsl(257, 40%, 49%);
+    background: url('assets/bg-desktop.svg') no-repeat hsl(257, 40%, 49%);
+    background-size: contain;
     font-family: "open sans"sans-serif;
     font-weight: 400;
 }
@@ -26,7 +27,7 @@ body{
     
 }
 nav img{
-    width: 41%;
+    width: 18%;
    
 
 }
@@ -92,6 +93,7 @@ nav{
     color: white;
     background-color:hsl(300, 69%, 71%);
     transform: translateY(-3px);
+    cursor: pointer;
 
  }
 
@@ -133,23 +135,22 @@ nav{
     }
 
 nav img{
-    width: 30%;
+    width: 18%;
 
 
 }
 .main{
     flex-direction: row;
-    justify-content: center;
-
 }
 .main-inner-text{
-    text-align: left;
-    width: 40%;
-    margin-right: auto;
+    text-align: start;
+    width: 38%;
+    padding-top: 3rem;
+    /* margin-right: auto;
     margin-left: 4rem;
     height: 40%;
     margin-top: 5%;
-    margin-bottom: auto;
+    margin-bottom: auto; */
 }
 
  .main-footer{
@@ -161,11 +162,21 @@ nav img{
     margin: 0;
     width: 30%;
     height: 2.5rem;
+    color: hsl(257, 40%, 49%);
+
+}
+
+.main-inner-text button:hover{
+    /* box-shadow: 0 20px 30px rgba(0,0,0,2);
+    transform: translateY(-3px); */
+    cursor: pointer;
+    background-color:hsl(300, 69%, 71%);
+    color: white;
 }
 .main-inner-text-h2{
-    font-family: "poppins",sans-serif;
-    font-weight: 600;
     color: white;
+    width: 70%;
+    line-height: 1.7rem;
 }
     
  .main-inner-text p{
@@ -176,7 +187,7 @@ nav img{
  .icon-view{
   padding-top: 4%;
   padding-bottom: 5%;
- }
+ }a
    .main img{
     max-width: 100%;
     display: flex;
